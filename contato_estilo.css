@@ -1,6 +1,68 @@
 @import "fonts/stylesheet.css";
-#conteudo{
-	font-size: 40px;
-	clear: both;
-	position: relative;
+#conteudo iframe{
+	float:left;
+	width: 25%;
+	height: 400px;
+}
+
+.conteudo_central{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#cartao_back{
+	display: none;
+}
+#cartao_frente{
+	float: right;
+	position: fixed;
+	right: -10px;
+	width: 20%;
+	height: auto;
+	top: 45%;
+}
+
+#cartao_frente:a{
+	float: right;
+	position: absolute;
+	right: -10px;
+	width: 20%;
+	height: auto;
+	display: inline;
+}
+
+iframe{
+	/*border-radius: 5px;
+	border-width: 3px;
+	border: solid;
+	
+	border-color: #82739e;*/
+	border-style: insert;
+	border-radius: 7px;
+	border-width: 4px;
+}
+
+/*#cartao{
+	float: right;
+	position: fixed;
+	width:50%;
+	height:auto;
+	{}
+	.cartao_back{
+		display: none;
+	}
+}
+#cartao:hover{
+	{}
+	.cartao_frente{
+		display: none;
+	}
+	.cartao_back{
+		display: block;
+	}
+}*/
+
+p strike{
+	color: #b5b5b5;
 }

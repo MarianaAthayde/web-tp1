@@ -1,30 +1,32 @@
 @import "fonts/stylesheet.css";
 body{
 	margin: 0px;
+	background: linear-gradient(to bottom, #b734e5,#e6e6e6);/*db8bff*/
+	background-repeat: repeat;
+	background-attachment: fixed;
 }
 #folha{
 	position: absolute;
-	background: linear-gradient(to bottom, #dcdcdc, #e6e6e6);
 	height: auto;
+	background-size: 100% 100%; 
+	height: 100%;
 	width: auto;
 	top: 0px;
 	right: 0px;
 	left:0px;
 	bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: 0px;
+	margin: 0;
 }
 
 #faixa{	
-	position: relative;
-    background: #b5b5b5;
+	/*float: left;
+	position: relative;*/
+	position: absolute;
+	background: linear-gradient(to bottom, #d5d5d5, #e6e6e6);
+    /*background: #b5b5b5;*/
     top: 160px;
 	height: 27%;
 	width: 100%;
-	float: left;
 	border-top: solid;
 	border-top-color: #898989;
  	border-top-width: 1px;
@@ -34,22 +36,23 @@ body{
 }
 
 .foto_perfil{
-	position: relative;
+	/*position: relative;
+	float: left;*/
+	position: absolute;
 	width: 11%;
 	height: 85%;
 	border: solid;
 	border-color: #d5d5d5;
 	border-width: 7.5px;
 	top: 28px;
-	left: 38px;
-	float: left;
-}
+	left: 38px;}
 
 .nome_perfil{
-	position: relative;
+	/*position: relative;*/
+	position: absolute;
 	font-family: OrangeJuice;
 	line-height: 90%;
-	left: 70px;
+	left: 250px;
 	top: 80px;
 	color: #605e5f;
 	font-size: 3.5em;
@@ -96,4 +99,22 @@ body{
 	width: 5.0em;
 	height: auto;
 	padding-top: -0.2em;
+}
+
+#conteudo{
+	position: relative;
+	display: block;
+	top: 400px;
+	margin-right:auto;
+	margin-left: auto;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom: 5px;
+	width: auto;
+}
+
+#conteudo p{
+	font: 15px Arial, sans-serif;
+	text-align: center;
+	font-weight: 700;
 }

@@ -1,0 +1,44 @@
+@import "fonts/stylesheet.css";
+
+#conteudo_central{
+	position: relative;
+	display: block;
+	top: 400px;
+	margin-right:auto;
+	margin-left: auto;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom: 5px;
+	width: auto;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align; left;
+}
+
+#conteudo_central p{
+	font: 15px Arial, sans-serif;
+	font-weight: 700;
+}
+
+#conteudo_central h1{
+	font-weight: 900;
+}
+
+#conteudo_central h2{
+	font-weight: 800;
+}
+
+#link{
+	position: fixed;
+	top: 400px;
+	right:20px;
+	padding: .5em .75em;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.7);
+	font-family: 'Cookie',cursive;
+	font-size: 1em;
+	-webkit-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
+	opacity: 1;
+}
